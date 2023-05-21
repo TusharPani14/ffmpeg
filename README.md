@@ -2,7 +2,7 @@
 This web application users provide their videos, and the video is processed on the server using ffmpeg to remove noise. Used background jobs and job queues architecture to run it asynchronously in a background worker. 
 
 To start the server first run
-npm i
+npm install
 npm start
 
 Also need to start the redis server
